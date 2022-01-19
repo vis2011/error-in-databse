@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>school vaccination information center</title>
+    <!-- Lib -->
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.6/dist/sweetalert2.all.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+
+    <script type="module">
+      var firebaseConfig = {
+        apiKey: "AIzaSyC89704A9qtpCOM8GoGkkJtto9jWi87uVk",
+        authDomain: "school-vaccination-info-center.firebaseapp.com",
+        databaseURL:
+          "https://school-vaccination-info-center-default-rtdb.firebaseio.com",
+        projectId: "school-vaccination-info-center",
+        storageBucket: "school-vaccination-info-center.appspot.com",
+        messagingSenderId: "489438449671",
+        appId: "1:489438449671:web:390edb3ef68835d7d79aa2",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="home.js"></script>
+
+    <script src="Game.js"></script>
+    <script src="Form.js"></script>
+    <script src="school.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
